@@ -16,11 +16,15 @@ public class ElectricPokemon extends SuperPokemon {
 public void pound() {
 
     if (hasTail) {
-        System.out.println(super.getName() + "has a tail, tailwhips insteads of pounds");
+        System.out.println(super.getName() + "  has a tail, tailwhips insteads of pounds");
     } else {
         super.pound();
 
     }
+}
+
+public void thunder(){
+        System.out.println("Pokemon '" + getName() +  "' creates a thunderstorm with its electricity");
 
 }
 

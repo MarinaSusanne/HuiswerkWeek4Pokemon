@@ -20,11 +20,11 @@ public class SuperPokemon {
 
     // methode (moet in kleine letter)
     public void pound() {
-        System.out.println("Pokemon: " + name + "pounds");
+        System.out.println("Pokemon '" + name + "' pounds");
     }
 
     public void scratch(){
-        System.out.println("Pokemon scratches");
+        System.out.println("Pokemon '" + name + "' scratches");
     }
 
 

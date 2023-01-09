@@ -5,6 +5,7 @@ public class FirePokemon extends SuperPokemon {
     private double temperature;
     private String food;
 
+
     // constructor
     public FirePokemon(int healthPoints, String type, int experience, int level, String name, double temperature, String food) {
         super(healthPoints, type, experience, level, name);
@@ -15,11 +16,11 @@ public class FirePokemon extends SuperPokemon {
     // methode
     @Override
     public void pound(){
-        System.out.println("Pokemon:" + getName() + "does not know how to pound");
+        System.out.println("Pokemon '" + getName() + "' ' does not know how to pound");
     }
 
     public void flameThrower(){
-        System.out.println("Pokemon is throwing with fire");
+        System.out.println("Pokemon '" + getName() +  "' is throwing with fire");
     }
 
 
